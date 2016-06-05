@@ -1,0 +1,4 @@
+export const CREATE_ACTICLE = 'CREATE_ACTICLE';
+export const DELETE_ACTICLE = 'DELETE_ACTICLE';
+export const EDIT_ACTICLE = 'EDIT_ACTICLE';
+export const UPDATE_ACTICLE = 'UPDATE_ACTICLE';

@@ -1,5 +1,5 @@
 var assert = require('chai').assert,
-    ArticleModel = require('../models/article');
+    ArticleModel = require('../app/models/article');
 
 var updateId;
 describe('Article', function(){
