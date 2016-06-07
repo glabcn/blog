@@ -40,7 +40,7 @@ app.use(function(req, res, next) {
   err.status = 404;
   next(err);
 });
-
+// passport认证
 passport.use('local', new localStrategy(
     function (username, password, done) {
       var user = {
